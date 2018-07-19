@@ -1,0 +1,325 @@
+@charset "UTF-8";
+
+
+body {
+	margin:0;
+	padding:0;
+	font-size:14px;
+	font-family: 'Archivo', sans-serif;
+	color:#363636;
+	font-weight:300;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight:900;
+	margin:1em 0 0.5em;
+	color:#696969;
+}
+
+h1 { font-size:3em;}
+h2 { font-size:2.2em;}
+h3 { font-size:2em;}
+h4 { font-size:1.6em;}
+h5 { font-size:1.4em;}
+h6 { font-size:1.2em;}
+
+p {
+	margin:0.3em 0 0.5em;
+}
+img {
+	vertical-align:bottom;
+	width: 100%;
+}
+
+a:link,
+a:visited {
+	text-decoration:none;
+	color:#04a081;
+}
+a:hover {
+	color:#a2fbe9;
+}
+a:active {
+	color:#1abc9c;
+}
+
+.nav-tabs li{
+	height: 95px;
+}
+
+.wrapper {
+	margin: 0 auto;
+}
+.wrapper::after,
+.cf::after {
+	display: table;
+	content: "";
+	clear: both;
+}
+
+
+.negative {
+	color: #1abc9c;
+}
+.negative h1,
+.negative h2,
+.negative h3,
+.negative h4,
+.negative h5,
+.negative h6 {
+	color: #1abc9c;
+}
+.negative a:link,
+.negative a:visited {
+	color: #1abc9c;
+	text-decoration: none;
+}
+.negative a:hover {
+	color: #1abc9c;
+	text-decoration: underline;
+}
+.negative a:active {
+	color: #EEE;
+}
+
+
+.button {
+    border: 1px solid #1abc9c;
+    border-radius: 5px;
+    color: #1abc9c;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1;
+    padding: 17px 33px 15px;
+	margin:20px 0;
+    text-transform: uppercase;
+}
+.button:hover {
+	background:#1abc9c;
+	color:#fff;
+}
+.negative .button {
+    border: 1px solid #FFF;
+    color: #FFF;
+}
+.negative .button:hover {
+	background: #FFF;
+    color: #1abc9c;
+	text-decoration:none;
+}
+
+header{
+	padding: 0 !important;
+}
+
+.container-fluid{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.container-fluid > .row{
+	margin-right: 0;
+	margin-left: 0;
+}
+
+#headerTop {
+	background: #363636;
+	border-bottom: 4px solid #ececec;
+	color: #898989;
+	font-size: 12px;
+	padding: 3px 1px;
+}
+#headerTopLeft {
+	float: left;
+}
+#headerTopLeft span {
+	margin-right: 40px;
+}
+#headerTopRight {
+	float: right;
+}
+#headerBottom {
+	background: #FFF;
+}
+
+#logo {
+	float: left;
+ 	margin-left: 10px;
+    margin-top: 30px;
+}
+#logo img {
+	height: 40px;
+}
+
+#nav {
+	float: right;
+}
+#nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#nav ul li {
+	float: left;
+}
+
+#nav ul li a {
+	display: block;
+	padding: 35px 20px 25px;
+}
+
+#nav ul li a:link,
+#nav ul li a:visited {
+	text-decoration: none;
+	color: #898989;
+	border-bottom: 4px solid #FFF;
+}
+
+#nav ul li a:hover {
+	background: #eee;
+	color: #1abc9c;
+	border-bottom: 4px solid #1abc9c;
+	height: 96px;
+}
+
+#nav ul li a:active {
+	background: #EEE;
+	border-bottom: 4px solid #CCC;
+}
+
+#nav ul li:last-child{
+	margin-right: 10px;
+}
+
+#hero {
+	background-image: url(images/hero.jpg);
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 180px 0;
+	text-align: center;
+}
+
+#IntroText{
+	margin-right: auto;
+	margin-left: auto;
+	float: none;
+}
+
+.product-wrapper{
+	margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+#products {
+	background: #F2F2F2;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+.product {
+	max-width: 300px;
+    min-width: 200px;
+    padding: 35px 35px 15px;
+    margin-top: 100px;
+    margin-right: 40px;
+    background: #FFF;
+    float: none;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	height: 485px;
+
+}
+.product:nth-of-type(4n) {
+	margin-right: 0;
+}
+
+.product span {
+	background: #CCC;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	display: block;
+	border-radius: 30px;
+	position: absolute;
+	top: -30px;
+	left: 50%;
+	margin-left: -30px;
+	font-size: 30px;
+}
+
+
+
+
+#partner {
+	padding:60px 0 100px;
+	text-align:center;
+}
+
+#partener1{
+	text-align:justify;
+	padding-left:200px;
+	float:left;
+}
+
+#partener2{
+	float:right;
+}
+
+
+#form-contact input[type="text"],
+#form-contact textarea{
+	width:100%;
+	border:1px solid #847D7D;
+	padding:10px;
+	box-sizing:border-box;
+	text-align: center;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+#form-contact input[type="submit"],
+#form-contact input[type="reset"]{
+	background:#1abc9c;
+	color:#FFFFFF;
+	padding:10px;
+	border:1px solid #1abc9c;
+	border-radius:10px;
+	
+}
+
+#map{
+	width:100%;
+	height:350px;
+	border::1px solid #9A9696;
+	box-sizing:border-box;
+}
+
+
+
+#footer {
+	padding:10px 0;
+	background:#363636;
+	color:#C5C5C5;
+	text-align:center;
+	clear:both;
+}
+
+/**************************About page******************************/	
+
+#portfolio-image img{
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
